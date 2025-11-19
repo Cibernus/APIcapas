@@ -23,6 +23,10 @@ builder.Services.AddScoped<IProductoService, ProductoService>();
 builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
 builder.Services.AddScoped<IProveedorService, ProveedorService>();
 builder.Services.AddScoped<IProveedorRepository, ProveedorRepository>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<ILoginService, LoginService>();
+
 
 
 builder.Services.AddControllers();

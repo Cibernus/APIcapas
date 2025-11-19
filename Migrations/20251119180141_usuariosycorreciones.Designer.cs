@@ -2,6 +2,7 @@
 using Areyes.BaseDedatos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AReyes.Migrations
 {
     [DbContext(typeof(AbarrotesReyesContext))]
-    partial class AbarrotesReyesContextModelSnapshot : ModelSnapshot
+    [Migration("20251119180141_usuariosycorreciones")]
+    partial class usuariosycorreciones
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -133,7 +136,7 @@ namespace AReyes.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(70)");
 
-                    b.Property<string>("Contrasena")
+                    b.Property<string>("Contraseña")
                         .IsRequired()
                         .HasColumnType("varchar(256)");
 

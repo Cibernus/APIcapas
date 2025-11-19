@@ -130,4 +130,6 @@ C:\Users\alexx\OneDrive\Desktop\API ABARROTES_REYES\AReyes\Areyes\bin\Debug\net8
 C:\Users\alexx\OneDrive\Desktop\API ABARROTES_REYES\AReyes\Areyes\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\alexx\OneDrive\Desktop\API ABARROTES_REYES\AReyes\Areyes\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\alexx\OneDrive\Desktop\API ABARROTES_REYES\AReyes\Areyes\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\alexx\OneDrive\Desktop\API ABARROTES_REYES\AReyes\AReyes\obj\Debug\net8.0\AReyes.sourcelink.json
 C:\Users\alexx\OneDrive\Desktop\API ABARROTES_REYES\AReyes\AReyes\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\alexx\OneDrive\Desktop\API ABARROTES_REYES\AReyes\AReyes\bin\Debug\net8.0\BCrypt.Net-Next.dll

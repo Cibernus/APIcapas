@@ -2,6 +2,7 @@
 using Areyes.BaseDedatos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AReyes.Migrations
 {
     [DbContext(typeof(AbarrotesReyesContext))]
-    partial class AbarrotesReyesContextModelSnapshot : ModelSnapshot
+    [Migration("20251118195726_AddImagen")]
+    partial class AddImagen
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,11 +33,11 @@ namespace AReyes.Migrations
 
                     b.Property<string>("ApellidoMaterno")
                         .IsRequired()
-                        .HasColumnType("varchar(70)");
+                        .HasColumnType("text");
 
                     b.Property<string>("ApellidoPaterno")
                         .IsRequired()
-                        .HasColumnType("varchar(70)");
+                        .HasColumnType("text");
 
                     b.Property<string>("Curp")
                         .IsRequired()
@@ -42,7 +45,7 @@ namespace AReyes.Migrations
 
                     b.Property<string>("NombreEmpleado")
                         .IsRequired()
-                        .HasColumnType("varchar(70)");
+                        .HasColumnType("text");
 
                     b.Property<string>("Telefono")
                         .IsRequired()
@@ -94,15 +97,15 @@ namespace AReyes.Migrations
 
                     b.Property<string>("ApellidoMaterno")
                         .IsRequired()
-                        .HasColumnType("varchar(70)");
+                        .HasColumnType("text");
 
                     b.Property<string>("ApellidoPaterno")
                         .IsRequired()
-                        .HasColumnType("varchar(70)");
+                        .HasColumnType("text");
 
                     b.Property<string>("NombreProveedor")
                         .IsRequired()
-                        .HasColumnType("varchar(70)");
+                        .HasColumnType("text");
 
                     b.Property<string>("Rfc")
                         .IsRequired()
@@ -116,47 +119,6 @@ namespace AReyes.Migrations
                         .HasName("PK_ProveedorId");
 
                     b.ToTable("Proveedores", (string)null);
-                });
-
-            modelBuilder.Entity("AReyes.Models.UsuarioEntity", b =>
-                {
-                    b.Property<string>("UsuarioId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("varchar")
-                        .HasDefaultValueSql("generar_clave_Usuario()");
-
-                    b.Property<string>("ApellidoMaterno")
-                        .IsRequired()
-                        .HasColumnType("varchar(70)");
-
-                    b.Property<string>("ApellidoPaterno")
-                        .IsRequired()
-                        .HasColumnType("varchar(70)");
-
-                    b.Property<string>("Contrasena")
-                        .IsRequired()
-                        .HasColumnType("varchar(256)");
-
-                    b.Property<string>("CorreoElectronico")
-                        .IsRequired()
-                        .HasColumnType("varchar(150)");
-
-                    b.Property<string>("NombreUsuario")
-                        .IsRequired()
-                        .HasColumnType("varchar(70)");
-
-                    b.Property<string>("Rol")
-                        .IsRequired()
-                        .HasColumnType("varchar(50)");
-
-                    b.Property<string>("Telefono")
-                        .IsRequired()
-                        .HasColumnType("varchar(15)");
-
-                    b.HasKey("UsuarioId")
-                        .HasName("PK_UsuarioId");
-
-                    b.ToTable("Usuarios", (string)null);
                 });
 #pragma warning restore 612, 618
         }

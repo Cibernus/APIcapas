@@ -79,6 +79,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AReyes.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/Login/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AReyes.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AReyes.Controllers.ProductoController",
     "Method": "GetProductos",
     "RelativePath": "api/Producto",
@@ -231,6 +247,85 @@
       {
         "Name": "dto",
         "Type": "AReyes.DTO.ProveedorDTOcs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AReyes.Controllers.UsuarioController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AReyes.Controllers.UsuarioController",
+    "Method": "CrearUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AReyes.DTO.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AReyes.Controllers.UsuarioController",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/Usuario/deleteUsuarios/{UsuarioId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AReyes.Controllers.UsuarioController",
+    "Method": "GetUsuarioById",
+    "RelativePath": "api/Usuario/getUsuario/{UsuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AReyes.Controllers.UsuarioController",
+    "Method": "ActualizarUsuario",
+    "RelativePath": "api/Usuario/putUsuarios/{UsuarioId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "AReyes.DTO.UsuarioDTO",
         "IsRequired": true
       }
     ],

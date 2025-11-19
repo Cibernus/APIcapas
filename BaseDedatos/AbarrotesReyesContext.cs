@@ -13,6 +13,8 @@ namespace Areyes.BaseDedatos
 
         public virtual DbSet<ProveedorEntity> Proveedores { get; set; }
 
+        public virtual DbSet<UsuarioEntity> Usuarios { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -42,9 +44,12 @@ namespace Areyes.BaseDedatos
                  .HasColumnType("varchar(200)")
                 .IsRequired();
 
+                entity.Property(p => p.Imagen)
+               .HasColumnType("varchar(300)")
+              .IsRequired();
+
             }
          );
-
             modelBuilder.Entity<EmpleadoEntity>(entity =>
 
             {
@@ -56,13 +61,16 @@ namespace Areyes.BaseDedatos
                    .HasDefaultValueSql("generar_clave_Empleado()");
 
                 entity.Property(p => p.NombreEmpleado)
+                    .HasColumnType("varchar(70)")
                     .IsRequired();
 
                 entity.Property(p => p.ApellidoPaterno)
+                    .HasColumnType("varchar(70)")
                     .IsRequired();
 
                 entity.Property(p => p.ApellidoMaterno)
-                    .IsRequired();
+                     .HasColumnType("varchar(70)");
+                   
 
                 entity.Property(p => p.Telefono)
                   .HasColumnType("varchar(15)")
@@ -85,21 +93,62 @@ namespace Areyes.BaseDedatos
                    .HasDefaultValueSql("generar_clave_Proveedor()");
 
                 entity.Property(p => p.NombreProveedor)
+                 .HasColumnType("varchar(70)")
                     .IsRequired();
 
                 entity.Property(p => p.ApellidoPaterno)
+                 .HasColumnType("varchar(70)")
                     .IsRequired();
 
                 entity.Property(p => p.ApellidoMaterno)
-                    .IsRequired();
+                   .HasColumnType("varchar(70)");
+                    
 
                 entity.Property(p => p.Telefono)
                   .HasColumnType("varchar(15)")
                     .IsRequired();
 
                 entity.Property(p => p.Rfc)
-                 .HasColumnType("varchar(18)")
+                 .HasColumnType("varchar(13)")
                     .IsRequired();
+            });
+
+            modelBuilder.Entity<UsuarioEntity>(entity =>
+            {
+                entity.ToTable("Usuarios");
+                entity.HasKey(u => u.UsuarioId).HasName("PK_UsuarioId");
+
+                entity.Property(u => u.UsuarioId)
+                    .HasColumnType("varchar")
+                    .HasDefaultValueSql("generar_clave_Usuario()");
+
+                entity.Property(u => u.NombreUsuario)
+                    .HasColumnType("varchar(70)")
+                    .IsRequired();
+
+                entity.Property(u => u.ApellidoPaterno)
+                    .HasColumnType("varchar(70)")
+                    .IsRequired();
+
+                entity.Property(u => u.ApellidoMaterno)
+                    .HasColumnType("varchar(70)");// opcional, sin IsRequired
+
+                entity.Property(u => u.Telefono)
+                    .HasColumnType("varchar(15)")
+                    .IsRequired();
+
+                entity.Property(u => u.CorreoElectronico)
+                    .HasColumnType("varchar(150)") // suficiente para la mayoría de casos
+                    .IsRequired();
+
+                entity.Property(u => u.Contrasena)
+                    .HasColumnType("varchar(256)") // recomendado para almacenar hash
+                    .IsRequired();
+
+                entity.Property(u => u.Rol)
+                    .HasColumnType("varchar(50)")
+                    .IsRequired();
+
             });
 
         }

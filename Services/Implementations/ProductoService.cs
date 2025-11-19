@@ -62,12 +62,26 @@ namespace AReyes.Services.Implementations
                 throw new ArgumentException("El precio debe ser mayor a cero.");
             }
 
+            // ✅ Validar imagen
+            if (string.IsNullOrWhiteSpace(dto.Imagen))
+            {
+                throw new ArgumentException("La imagen del producto es obligatoria.");
+            }
+
+            // Validar formato de imagen (ej. archivo o URL)
+            var extensionesValidas = new[] { ".jpg", ".jpeg", ".png" };
+            if (!extensionesValidas.Any(ext => dto.Imagen.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
+            {
+                throw new ArgumentException("La imagen debe estar en formato JPG o PNG.");
+            }
+
             var producto = new ProductoEntity
             {
                 NombreProducto = dto.NombreProducto.Trim(),
                 Cantidad = dto.Cantidad,
                 Precio = dto.Precio,
-                Descripcion = dto.Descripcion.Trim()
+                Descripcion = dto.Descripcion?.Trim(),
+                Imagen = dto.Imagen.Trim()
             };
 
             await _repo.CreateAsync(producto);
