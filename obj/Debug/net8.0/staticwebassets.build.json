@@ -1,12 +1,2185 @@
 {
   "Version": 1,
-  "Hash": "sGjfoSblZQIvYRQ2bh7WF5ET8WWFR1aODvkm5hIGhOE=",
+  "Hash": "eU6ZB0EoJrODJw58vwWdMmMPvD0UEZYXHeIwB32udQY=",
   "Source": "AReyes",
   "BasePath": "_content/AReyes",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "AReyes\\wwwroot",
+      "Source": "AReyes",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\10d7b83d-82cf-48e0-9adb-f7ae1110f331.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/10d7b83d-82cf-48e0-9adb-f7ae1110f331#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1iirntsi5y",
+      "Integrity": "lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\10d7b83d-82cf-48e0-9adb-f7ae1110f331.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\14e6ace7-2cd0-4c14-8694-cad3ced5677a.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/14e6ace7-2cd0-4c14-8694-cad3ced5677a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qje4boi926",
+      "Integrity": "ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\14e6ace7-2cd0-4c14-8694-cad3ced5677a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\31b2e11c-08d5-4302-820e-be15b9876add.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/31b2e11c-08d5-4302-820e-be15b9876add#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ckl611727",
+      "Integrity": "yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\31b2e11c-08d5-4302-820e-be15b9876add.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\34209c3d-7f7c-43af-8111-f32c377def23.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/34209c3d-7f7c-43af-8111-f32c377def23#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qje4boi926",
+      "Integrity": "ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\34209c3d-7f7c-43af-8111-f32c377def23.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\39855a0d-6e3d-41ba-85ec-a4bdf8344b9a.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/39855a0d-6e3d-41ba-85ec-a4bdf8344b9a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwqn2cich9",
+      "Integrity": "EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\39855a0d-6e3d-41ba-85ec-a4bdf8344b9a.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\3f7fcb53-31b5-4bb7-86db-e667b3ea452e.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/3f7fcb53-31b5-4bb7-86db-e667b3ea452e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1iirntsi5y",
+      "Integrity": "lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\3f7fcb53-31b5-4bb7-86db-e667b3ea452e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qje4boi926",
+      "Integrity": "ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\5f5ce738-8110-47cb-89e1-c44689f4d573.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/5f5ce738-8110-47cb-89e1-c44689f4d573#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwqn2cich9",
+      "Integrity": "EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5f5ce738-8110-47cb-89e1-c44689f4d573.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\747d304f-5ff6-47ff-bbbe-62bf01a7949e.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/747d304f-5ff6-47ff-bbbe-62bf01a7949e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ckl611727",
+      "Integrity": "yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\747d304f-5ff6-47ff-bbbe-62bf01a7949e.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\7961276c-ddf9-4fa2-9965-44f2810442fb.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/7961276c-ddf9-4fa2-9965-44f2810442fb#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwqn2cich9",
+      "Integrity": "EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7961276c-ddf9-4fa2-9965-44f2810442fb.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\9f38a36f-11bf-4b4b-9aae-396c8cd03d3e.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/9f38a36f-11bf-4b4b-9aae-396c8cd03d3e#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mopyz7qplt",
+      "Integrity": "hhXpq7vU2yVZW9u4bdmQozaIguI03L+xDJhdU9JrHZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\9f38a36f-11bf-4b4b-9aae-396c8cd03d3e.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\a6f18a85-d2a3-47d4-9e84-ef13b3cad182.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/a6f18a85-d2a3-47d4-9e84-ef13b3cad182#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwqn2cich9",
+      "Integrity": "EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a6f18a85-d2a3-47d4-9e84-ef13b3cad182.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\aeb9bb6d-8b08-4449-a156-f2b737382a23.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/aeb9bb6d-8b08-4449-a156-f2b737382a23#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1iirntsi5y",
+      "Integrity": "lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\aeb9bb6d-8b08-4449-a156-f2b737382a23.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\bf165627-1e8d-4182-b929-f243cfecff15.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/bf165627-1e8d-4182-b929-f243cfecff15#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qje4boi926",
+      "Integrity": "ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\bf165627-1e8d-4182-b929-f243cfecff15.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\cff4d37d-c8da-447b-8793-930aa20fc940.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/cff4d37d-c8da-447b-8793-930aa20fc940#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1iirntsi5y",
+      "Integrity": "lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cff4d37d-c8da-447b-8793-930aa20fc940.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\d5de16fb-a9b3-4f82-83e3-2f14bb6299ac.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/d5de16fb-a9b3-4f82-83e3-2f14bb6299ac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1iirntsi5y",
+      "Integrity": "lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d5de16fb-a9b3-4f82-83e3-2f14bb6299ac.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\dc106fcd-aa36-4cb8-b312-7c8443152130.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/dc106fcd-aa36-4cb8-b312-7c8443152130#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1iirntsi5y",
+      "Integrity": "lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dc106fcd-aa36-4cb8-b312-7c8443152130.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\dead126b-4b41-4844-b304-f9aa872ba0ad.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/dead126b-4b41-4844-b304-f9aa872ba0ad#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ckl611727",
+      "Integrity": "yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dead126b-4b41-4844-b304-f9aa872ba0ad.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\e1c59db2-5030-4b0a-97b0-431d0cc1ca62.png",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/e1c59db2-5030-4b0a-97b0-431d0cc1ca62#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i3kqxd349w",
+      "Integrity": "wtIlgm9RcLiXM96Bm8dQzyyiXy9LorAv2s6fdIZytjY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\e1c59db2-5030-4b0a-97b0-431d0cc1ca62.png"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\f001e21b-b153-430c-ac8c-0999b75272ef.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/f001e21b-b153-430c-ac8c-0999b75272ef#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1iirntsi5y",
+      "Integrity": "lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\f001e21b-b153-430c-ac8c-0999b75272ef.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\f97db09a-6318-41fb-8553-0246098c7e6d.jpg",
+      "SourceId": "AReyes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\",
+      "BasePath": "_content/AReyes",
+      "RelativePath": "uploads/f97db09a-6318-41fb-8553-0246098c7e6d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qje4boi926",
+      "Integrity": "ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\f97db09a-6318-41fb-8553-0246098c7e6d.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/10d7b83d-82cf-48e0-9adb-f7ae1110f331.1iirntsi5y.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\10d7b83d-82cf-48e0-9adb-f7ae1110f331.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1iirntsi5y"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/10d7b83d-82cf-48e0-9adb-f7ae1110f331.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/10d7b83d-82cf-48e0-9adb-f7ae1110f331.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\10d7b83d-82cf-48e0-9adb-f7ae1110f331.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/14e6ace7-2cd0-4c14-8694-cad3ced5677a.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\14e6ace7-2cd0-4c14-8694-cad3ced5677a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:24:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/14e6ace7-2cd0-4c14-8694-cad3ced5677a.qje4boi926.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\14e6ace7-2cd0-4c14-8694-cad3ced5677a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:24:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qje4boi926"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/14e6ace7-2cd0-4c14-8694-cad3ced5677a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/31b2e11c-08d5-4302-820e-be15b9876add.7ckl611727.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\31b2e11c-08d5-4302-820e-be15b9876add.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:23:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ckl611727"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/31b2e11c-08d5-4302-820e-be15b9876add.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/31b2e11c-08d5-4302-820e-be15b9876add.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\31b2e11c-08d5-4302-820e-be15b9876add.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:23:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/34209c3d-7f7c-43af-8111-f32c377def23.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\34209c3d-7f7c-43af-8111-f32c377def23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:48:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/34209c3d-7f7c-43af-8111-f32c377def23.qje4boi926.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\34209c3d-7f7c-43af-8111-f32c377def23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:48:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qje4boi926"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/34209c3d-7f7c-43af-8111-f32c377def23.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/39855a0d-6e3d-41ba-85ec-a4bdf8344b9a.gwqn2cich9.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\39855a0d-6e3d-41ba-85ec-a4bdf8344b9a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 22:41:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwqn2cich9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/39855a0d-6e3d-41ba-85ec-a4bdf8344b9a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/39855a0d-6e3d-41ba-85ec-a4bdf8344b9a.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\39855a0d-6e3d-41ba-85ec-a4bdf8344b9a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 22:41:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3f7fcb53-31b5-4bb7-86db-e667b3ea452e.1iirntsi5y.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\3f7fcb53-31b5-4bb7-86db-e667b3ea452e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1iirntsi5y"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/3f7fcb53-31b5-4bb7-86db-e667b3ea452e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/3f7fcb53-31b5-4bb7-86db-e667b3ea452e.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\3f7fcb53-31b5-4bb7-86db-e667b3ea452e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:30:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1.qje4boi926.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:30:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qje4boi926"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/4e795cc4-09cb-496d-b1ff-f9a3a87e2cf1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5f5ce738-8110-47cb-89e1-c44689f4d573.gwqn2cich9.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\5f5ce738-8110-47cb-89e1-c44689f4d573.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:53:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwqn2cich9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5f5ce738-8110-47cb-89e1-c44689f4d573.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5f5ce738-8110-47cb-89e1-c44689f4d573.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\5f5ce738-8110-47cb-89e1-c44689f4d573.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:53:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/747d304f-5ff6-47ff-bbbe-62bf01a7949e.7ckl611727.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\747d304f-5ff6-47ff-bbbe-62bf01a7949e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ckl611727"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/747d304f-5ff6-47ff-bbbe-62bf01a7949e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/747d304f-5ff6-47ff-bbbe-62bf01a7949e.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\747d304f-5ff6-47ff-bbbe-62bf01a7949e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7961276c-ddf9-4fa2-9965-44f2810442fb.gwqn2cich9.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\7961276c-ddf9-4fa2-9965-44f2810442fb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwqn2cich9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7961276c-ddf9-4fa2-9965-44f2810442fb.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7961276c-ddf9-4fa2-9965-44f2810442fb.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\7961276c-ddf9-4fa2-9965-44f2810442fb.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:39:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9f38a36f-11bf-4b4b-9aae-396c8cd03d3e.mopyz7qplt.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\9f38a36f-11bf-4b4b-9aae-396c8cd03d3e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hhXpq7vU2yVZW9u4bdmQozaIguI03L+xDJhdU9JrHZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 22:19:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mopyz7qplt"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/9f38a36f-11bf-4b4b-9aae-396c8cd03d3e.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hhXpq7vU2yVZW9u4bdmQozaIguI03L+xDJhdU9JrHZY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/9f38a36f-11bf-4b4b-9aae-396c8cd03d3e.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\9f38a36f-11bf-4b4b-9aae-396c8cd03d3e.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69205"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hhXpq7vU2yVZW9u4bdmQozaIguI03L+xDJhdU9JrHZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 22:19:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hhXpq7vU2yVZW9u4bdmQozaIguI03L+xDJhdU9JrHZY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a6f18a85-d2a3-47d4-9e84-ef13b3cad182.gwqn2cich9.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\a6f18a85-d2a3-47d4-9e84-ef13b3cad182.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwqn2cich9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/a6f18a85-d2a3-47d4-9e84-ef13b3cad182.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a6f18a85-d2a3-47d4-9e84-ef13b3cad182.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\a6f18a85-d2a3-47d4-9e84-ef13b3cad182.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:39:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EAYNhhDh3BriUKhcDvAMvhwh5HhaoeY4e8i/K165ZQU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/aeb9bb6d-8b08-4449-a156-f2b737382a23.1iirntsi5y.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\aeb9bb6d-8b08-4449-a156-f2b737382a23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1iirntsi5y"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/aeb9bb6d-8b08-4449-a156-f2b737382a23.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/aeb9bb6d-8b08-4449-a156-f2b737382a23.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\aeb9bb6d-8b08-4449-a156-f2b737382a23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:32:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/bf165627-1e8d-4182-b929-f243cfecff15.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\bf165627-1e8d-4182-b929-f243cfecff15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:24:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/bf165627-1e8d-4182-b929-f243cfecff15.qje4boi926.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\bf165627-1e8d-4182-b929-f243cfecff15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:24:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qje4boi926"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/bf165627-1e8d-4182-b929-f243cfecff15.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cff4d37d-c8da-447b-8793-930aa20fc940.1iirntsi5y.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\cff4d37d-c8da-447b-8793-930aa20fc940.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1iirntsi5y"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cff4d37d-c8da-447b-8793-930aa20fc940.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cff4d37d-c8da-447b-8793-930aa20fc940.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\cff4d37d-c8da-447b-8793-930aa20fc940.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:36:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d5de16fb-a9b3-4f82-83e3-2f14bb6299ac.1iirntsi5y.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\d5de16fb-a9b3-4f82-83e3-2f14bb6299ac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 02:03:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1iirntsi5y"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d5de16fb-a9b3-4f82-83e3-2f14bb6299ac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d5de16fb-a9b3-4f82-83e3-2f14bb6299ac.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\d5de16fb-a9b3-4f82-83e3-2f14bb6299ac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 02:03:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dc106fcd-aa36-4cb8-b312-7c8443152130.1iirntsi5y.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\dc106fcd-aa36-4cb8-b312-7c8443152130.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1iirntsi5y"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dc106fcd-aa36-4cb8-b312-7c8443152130.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dc106fcd-aa36-4cb8-b312-7c8443152130.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\dc106fcd-aa36-4cb8-b312-7c8443152130.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 00:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dead126b-4b41-4844-b304-f9aa872ba0ad.7ckl611727.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\dead126b-4b41-4844-b304-f9aa872ba0ad.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7ckl611727"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dead126b-4b41-4844-b304-f9aa872ba0ad.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dead126b-4b41-4844-b304-f9aa872ba0ad.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\dead126b-4b41-4844-b304-f9aa872ba0ad.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Nov 2025 03:34:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yWu7bB3MXYrZxRsdfgHMWtUUXiBksGD6qckBmk3m1IY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e1c59db2-5030-4b0a-97b0-431d0cc1ca62.i3kqxd349w.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\e1c59db2-5030-4b0a-97b0-431d0cc1ca62.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wtIlgm9RcLiXM96Bm8dQzyyiXy9LorAv2s6fdIZytjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i3kqxd349w"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/e1c59db2-5030-4b0a-97b0-431d0cc1ca62.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wtIlgm9RcLiXM96Bm8dQzyyiXy9LorAv2s6fdIZytjY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e1c59db2-5030-4b0a-97b0-431d0cc1ca62.png",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\e1c59db2-5030-4b0a-97b0-431d0cc1ca62.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wtIlgm9RcLiXM96Bm8dQzyyiXy9LorAv2s6fdIZytjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wtIlgm9RcLiXM96Bm8dQzyyiXy9LorAv2s6fdIZytjY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f001e21b-b153-430c-ac8c-0999b75272ef.1iirntsi5y.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\f001e21b-b153-430c-ac8c-0999b75272ef.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1iirntsi5y"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/f001e21b-b153-430c-ac8c-0999b75272ef.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f001e21b-b153-430c-ac8c-0999b75272ef.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\f001e21b-b153-430c-ac8c-0999b75272ef.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:37:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lx4nOsL7eoemO+4o1j6aHmfXVyrXBKnEk9Hw/5Wchcs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f97db09a-6318-41fb-8553-0246098c7e6d.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\f97db09a-6318-41fb-8553-0246098c7e6d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:24:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f97db09a-6318-41fb-8553-0246098c7e6d.qje4boi926.jpg",
+      "AssetFile": "C:\\Users\\alexx\\OneDrive\\Desktop\\API ABARROTES_REYES\\AReyes\\AReyes\\wwwroot\\uploads\\f97db09a-6318-41fb-8553-0246098c7e6d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Nov 2025 23:24:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qje4boi926"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/f97db09a-6318-41fb-8553-0246098c7e6d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ps1lInXobppWK/ZC6zvreR2ERDMo9KV2p9KmE3TnW8o="
+        }
+      ]
+    }
+  ]
 }

@@ -26,6 +26,9 @@ builder.Services.AddScoped<IProveedorRepository, ProveedorRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<IImagenService, ImagenService>();
+builder.Services.AddHttpContextAccessor();
+
 
 
 
@@ -46,9 +49,11 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 app.UseCors();
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
 
 // Configure the HTTP request pipeline.
 

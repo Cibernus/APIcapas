@@ -11,10 +11,12 @@ namespace AReyes.Services.Implementations
     public class ProductoService : IProductoService
     {
         private readonly IProductoRepository _repo;
+        private readonly IImagenService _imagenService;
 
-        public ProductoService(IProductoRepository repo)
+        public ProductoService(IProductoRepository repo,IImagenService imagenService)
         {
             _repo = repo;
+            _imagenService = imagenService;
         }
 
         // GET → Obtener todos los productos
@@ -42,7 +44,7 @@ namespace AReyes.Services.Implementations
             return producto;
         }
         // POST → Crear un nuevo producto
-        public async Task CreateAsync(ProductoDTO dto)
+        public async Task CreateAsync(ProductoDTO dto, IFormFile imagen)
         {
             // Validaciones básicas
             if (string.IsNullOrWhiteSpace(dto.NombreProducto))
@@ -62,18 +64,9 @@ namespace AReyes.Services.Implementations
                 throw new ArgumentException("El precio debe ser mayor a cero.");
             }
 
-            // ✅ Validar imagen
-            if (string.IsNullOrWhiteSpace(dto.Imagen))
-            {
-                throw new ArgumentException("La imagen del producto es obligatoria.");
-            }
+          
 
-            // Validar formato de imagen (ej. archivo o URL)
-            var extensionesValidas = new[] { ".jpg", ".jpeg", ".png" };
-            if (!extensionesValidas.Any(ext => dto.Imagen.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
-            {
-                throw new ArgumentException("La imagen debe estar en formato JPG o PNG.");
-            }
+            var imagenUrl = await _imagenService.GuardarImagenAsync(imagen);
 
             var producto = new ProductoEntity
             {
@@ -81,44 +74,33 @@ namespace AReyes.Services.Implementations
                 Cantidad = dto.Cantidad,
                 Precio = dto.Precio,
                 Descripcion = dto.Descripcion?.Trim(),
-                Imagen = dto.Imagen.Trim()
+                Imagen = imagenUrl
             };
 
             await _repo.CreateAsync(producto);
+          
         }
 
 
         // PUT → Actualizar producto
-        public async Task UpdateAsync(string id, ProductoDTO dto)
+        public async Task UpdateAsync(string id, ProductoDTO dto, IFormFile? imagen)
         {
-            // Validación básica del ID
             if (string.IsNullOrWhiteSpace(id))
-            {
                 throw new ArgumentException("El ID es obligatorio para actualizar");
-            }
 
-            // Buscar si existe el producto
             var existing = await _repo.GetByIdAsync(id);
             if (existing == null)
-            {
                 throw new InvalidOperationException("El producto no existe");
-            }
 
             // Validaciones de negocio
             if (string.IsNullOrWhiteSpace(dto.NombreProducto))
-            {
                 throw new ArgumentException("El nombre del producto es obligatorio.");
-            }
 
-            if (dto.Cantidad < 0 || dto.Cantidad % 1 != 0)
-            {
+            if (dto.Cantidad < 0)
                 throw new ArgumentException("La cantidad debe ser un número entero y no negativa.");
-            }
 
             if (dto.Precio <= 0)
-            {
                 throw new ArgumentException("El precio debe ser mayor a cero.");
-            }
 
             // Mapear DTO → actualizar entidad existente
             existing.NombreProducto = dto.NombreProducto.Trim();
@@ -126,9 +108,23 @@ namespace AReyes.Services.Implementations
             existing.Precio = dto.Precio;
             existing.Descripcion = dto.Descripcion?.Trim();
 
-            // Guardar cambios
+            // 👇 Lógica de imagen
+            if (imagen != null && imagen.Length > 0)
+            {
+                // Guardar nueva imagen
+                var nuevaUrl = await _imagenService.GuardarImagenAsync(imagen);
+
+                // Solo reemplazar si es distinta de la actual
+                if (!string.Equals(existing.Imagen, nuevaUrl, StringComparison.OrdinalIgnoreCase))
+                {
+                    existing.Imagen = nuevaUrl;
+                }
+            }
+            // Si no se manda imagen → se conserva la actual
+
             await _repo.UpdateAsync(existing);
         }
+
 
 
         // DELETE → Eliminar producto por ID

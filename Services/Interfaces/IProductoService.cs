@@ -14,10 +14,11 @@ namespace AReyes.Services.Interfaces
         Task<ProductoEntity?> GetByIdAsync(string id);
 
         // POST → Crear un nuevo producto
-        Task CreateAsync(ProductoDTO producto);
+        Task CreateAsync(ProductoDTO producto, IFormFile imagen);
 
         // PUT → Actualizar un producto existente
-        Task UpdateAsync(string id, ProductoDTO producto);
+        Task UpdateAsync(string id, ProductoDTO producto, IFormFile? imagen);
+
 
         // DELETE → Eliminar un producto por ID
         Task DeleteAsync(string id);

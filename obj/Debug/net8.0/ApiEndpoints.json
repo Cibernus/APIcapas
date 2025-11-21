@@ -113,9 +113,59 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "AReyes.DTO.ProductoDTO",
-        "IsRequired": true
+        "Name": "NombreProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Precio",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -155,20 +205,45 @@
   {
     "ContainingType": "AReyes.Controllers.ProductoController",
     "Method": "ActualizarProducto",
-    "RelativePath": "api/Producto/putProductos/{ProductoId}",
+    "RelativePath": "api/Producto/putProductos/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "ProductoId",
+        "Name": "id",
         "Type": "System.String",
         "IsRequired": true
       },
       {
-        "Name": "dto",
-        "Type": "AReyes.DTO.ProductoDTO",
-        "IsRequired": true
+        "Name": "NombreProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Precio",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

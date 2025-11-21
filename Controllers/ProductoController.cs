@@ -55,14 +55,16 @@ namespace AReyes.Controllers
                 return BadRequest(new { Mensaje = ex.Message });
             }
         }
-
-        // POST: api/producto
         [HttpPost]
-        public async Task<IActionResult> CrearProducto([FromBody] ProductoDTO dto)
+        public async Task<IActionResult> CrearProducto([FromForm] ProductoDTO dto, [FromForm] IFormFile imagen)
         {
             try
             {
-                await _service.CreateAsync(dto);
+                if (imagen == null || imagen.Length == 0)
+                    return BadRequest(new { Mensaje = "Debes subir una imagen." });
+
+                await _service.CreateAsync(dto, imagen);
+
                 return Ok(new { Mensaje = "Producto creado exitosamente." });
             }
             catch (ArgumentException ex)
@@ -81,25 +83,35 @@ namespace AReyes.Controllers
             }
         }
 
-        // PUT: api/producto/{ProductoId}
-        [HttpPut("putProductos/{ProductoId}")]
-        public async Task<IActionResult> ActualizarProducto(string ProductoId, [FromBody] ProductoDTO dto)
+
+        // PUT: api/producto/{id}
+        [HttpPut("putProductos/{id}")]
+        public async Task<IActionResult> ActualizarProducto(string id, [FromForm] ProductoDTO dto, IFormFile? imagen)
         {
             try
             {
-                await _service.UpdateAsync(ProductoId, dto);
-                return Ok(new { Mensaje = "Producto actualizado correctamente" });
-            }
-            catch (InvalidOperationException ex)
-            {
-                return NotFound(new { Mensaje = $"No se encontró el producto con Id '{ProductoId}'." });
+                // Ya no rechazamos si la imagen es nula,
+                // porque en actualización puede conservarse la existente.
+                await _service.UpdateAsync(id, dto, imagen);
+
+                return Ok(new { Mensaje = "Producto actualizado exitosamente." });
             }
             catch (ArgumentException ex)
             {
-                return BadRequest(new
+                return BadRequest(new { Mensaje = ex.Message });
+            }
+            catch (InvalidOperationException ex)
+            {
+                return NotFound(new { Mensaje = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
                 {
-                    Error = "Validación de datos",
-                    Detalle = ex.Message
+                    success = false,
+                    mensaje = "Error al actualizar en la base de datos.",
+                    detalles = ex.InnerException?.Message ?? ex.Message,
+                    stackTrace = ex.StackTrace
                 });
             }
         }
