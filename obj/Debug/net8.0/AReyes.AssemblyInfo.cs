@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AReyes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd387b9e9b351dd50f6d6e83449331242a1cf7b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e171827c695dac18b127253b1a47d48ef6c7eec2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AReyes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AReyes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

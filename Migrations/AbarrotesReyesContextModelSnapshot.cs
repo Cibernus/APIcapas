@@ -21,6 +21,31 @@ namespace AReyes.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("AReyes.Models.ClienteEntity", b =>
+                {
+                    b.Property<string>("ClienteId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("varchar")
+                        .HasDefaultValueSql("generar_clave_Cliente()");
+
+                    b.Property<string>("Contrasena")
+                        .IsRequired()
+                        .HasColumnType("varchar(256)");
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasColumnType("varchar(150)");
+
+                    b.Property<string>("NombreUsuario")
+                        .IsRequired()
+                        .HasColumnType("varchar(70)");
+
+                    b.HasKey("ClienteId")
+                        .HasName("PK_ClienteId");
+
+                    b.ToTable("Clientes", (string)null);
+                });
+
             modelBuilder.Entity("AReyes.Models.EmpleadoEntity", b =>
                 {
                     b.Property<string>("EmpleadoId")

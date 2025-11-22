@@ -15,6 +15,8 @@ namespace Areyes.BaseDedatos
 
         public virtual DbSet<UsuarioEntity> Usuarios { get; set; }
 
+        public virtual DbSet<ClienteEntity> Clientes { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -150,6 +152,34 @@ namespace Areyes.BaseDedatos
                     .IsRequired();
 
             });
+
+            modelBuilder.Entity<ClienteEntity>(entity =>
+            {
+                entity.ToTable("Clientes");
+
+                entity.HasKey(c => c.ClienteId).HasName("PK_ClienteId");
+
+                entity.Property(c => c.ClienteId)
+                    .HasColumnType("varchar")
+                    .HasDefaultValueSql("generar_clave_Cliente()");
+
+                entity.Property(c => c.NombreUsuario)
+                    .HasColumnType("varchar(70)")
+                    .IsRequired();
+
+                entity.Property(c => c.Correo)
+                    .HasColumnType("varchar(150)") // suficiente para la mayoría de casos
+                    .IsRequired();
+
+                entity.Property(c => c.Contrasena)
+                    .HasColumnType("varchar(256)") // recomendado para almacenar hash
+                    .IsRequired();
+            });
+
+
+
+
+
 
         }
     }
